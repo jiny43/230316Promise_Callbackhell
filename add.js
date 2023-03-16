@@ -35,9 +35,8 @@ setTimeout(()=>{g =100;
   g=300;
   console.log(g); //300
 },3000);
-//setTimeout(function(){
-// g =100;
-//},1000)
+
+
 // setTimeout(function() {
 //   g = 100;
 // }, 0);
@@ -45,4 +44,7 @@ setTimeout(()=>{g =100;
 
 // 즉, 해당 코드는 현재 실행 중인 코드가 끝난 다음에 g 변수를 100으로 설정하는 작업을 예약하는 것이며, 이는 이벤트 루프가 동작하는 원리를 기반으로 합니다.
 // console.log(g); 
-console.log(g);
+
+console.log(g); //0
+
+
