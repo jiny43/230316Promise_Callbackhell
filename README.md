@@ -1,1 +1,4 @@
-모던자바스크립트 45 장
+
+### promise 
+async/await <br>
+이해와 연습
